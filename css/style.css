@@ -9,7 +9,8 @@ body {
 span {
   display: block;
   padding: 200px 50px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-size: 3em;
   transition: 0.5s;
   animation-name: color-ch;
@@ -17,24 +18,19 @@ span {
   animation-timing-function: ease-in-out;
   animation-iteration-count: 3;
   animation-direction: alternate; */
-  
+
   animation: 5s ease-in-out 3 alternate color-ch;
-  }
+}
 
 @keyframes color-ch {
-
   0% {
     transform: translateX(0);
   }
   50% {
     font-size: 4em;
-  } 
-  
+  }
   100% {
     transform: translateX(1100px);
-    /* font-size: 4em; */
     color: blueviolet;
   }
-
-  }
-
+}
